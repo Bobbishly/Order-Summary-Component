@@ -4,6 +4,14 @@
     border-style: groove;
 }
 
+@media screen and (max-width: 800px) {
+    .one {
+        margin: 20px;
+        padding: 20px;
+        border-style: groove;
+    }
+}
+
 .nine {
     color: hsl(245, 75%, 52%);
     text-align: center;
@@ -39,16 +47,21 @@
 }
 
 .seven {
-     width: 30em; max-width: 100%; 
+    width: 30em;
+    max-width: 100%;
 }
-.seven p { 
-    display: inline-block; max-width: 50%; 
+
+.seven p {
+    display: inline-block;
+    max-width: 50%;
 }
-.seven p:nth-child(1) { 
-    float:left; 
+
+.seven p:nth-child(1) {
+    float: left;
 }
-.seven p:nth-child(2) { 
-    float:right; 
+
+.seven p:nth-child(2) {
+    float: right;
 }
 
 button {
@@ -67,16 +80,18 @@ button {
 button:hover {
     background-color: hsl(245, 75%, 52%);
     color: white;
-  }
+}
 
 body {
     background-image: url("images/pattern-background-desktop.svg");
     background-size: 50%;
 }
 
-.attribution { 
-    font-size: 11px; text-align: center; 
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
